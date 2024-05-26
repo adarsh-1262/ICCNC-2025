@@ -3,9 +3,8 @@ import React from 'react';
 const Contact = () => {
   // Contact persons data
   const contactPersons = [
-    { id: 1, name: 'John Doe', position: 'Conference Chair', email: 'john.doe@example.com', phone: '+1234567890' },
-    { id: 2, name: 'Jane Smith', position: 'Program Chair', email: 'jane.smith@example.com', phone: '+1234567891' },
-    { id: 3, name: 'Michael Johnson', position: 'Publicity Chair', email: 'michael.johnson@example.com', phone: '+1234567892' },
+    { id: 1, name: 'Dr. D.K Tripathi', position: 'General Chair', email: 'dktripathi@recsonbhadra.ac.in', phone: '+91 6392815075' },
+    { id: 2, name: 'Dr. P.K Verma', position: 'Finance Chair', email: 'pkverma@recsonbhadra.ac.in', phone: '+91 9882299205' },
   ];
 
   return (
