@@ -29,6 +29,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 For any questions or further information, please contact the conference organizers:
 
 Email: adarshsinggh1262@gmail.com
+
 Instagram: @adarsh_singgh
 
 Made with ❤️ by Adarsh Singh.
