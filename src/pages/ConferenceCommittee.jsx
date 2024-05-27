@@ -5,6 +5,27 @@ export default function SpeakerCard() {
     <div>
       <div>
         <h1 className="text-2xl text-blue-800 font-bold text-center mt-8">Committee Members</h1>
+        {/* ///////////////// Patron: ////////////// */}
+        <h2 className='text-xl text-black font-semibold underline text-center ml-7 mt-8'>Patron:</h2>
+      </div>
+      <div className="flex justify-center">
+        <div className="w-[200px] rounded-md border shadow-lg overflow-hidden transform transition-transform hover:scale-105 m-4">
+          <div className="h-[150px] w-full bg-gray-200">
+            <img
+              src="https://media.licdn.com/dms/image/C5103AQHYb-zpTTszhA/profile-displayphoto-shrink_800_800/0/1532668307525?e=1722470400&v=beta&t=n3o4rLE6N8tIIy9bCh9DM3jCGkNhE-nFCj36h2rXY8w"
+              alt="member"
+              className="h-full w-full object-contain"
+            />
+          </div>
+          <div className="p-4">
+            <h1 className="text-lg text-blue-800 font-semibold">Prof. G.S Tomar</h1>
+            <p className="mt-3 text-sm text-gray-600">
+              Rajkiya Engineering College Sonbhadra
+            </p>
+          </div>
+        </div>
+        </div>
+      <div>
         {/* ///////////////// General Chair Members: ////////////// */}
         <h2 className='text-xl text-black font-semibold underline text-center ml-7 mt-8'>General Chair:</h2>
       </div>
@@ -18,7 +39,7 @@ export default function SpeakerCard() {
             />
           </div>
           <div className="p-4">
-            <h1 className="text-lg text-blue-800 font-semibold">Dr. D K Tripathi</h1>
+            <h1 className="text-lg text-blue-800 font-semibold">Dr. D.K Tripathi</h1>
             <p className="mt-3 text-sm text-gray-600">
               Rajkiya Engineering College Sonbhadra
             </p>
@@ -222,7 +243,7 @@ export default function SpeakerCard() {
             />
           </div>
           <div className="p-4">
-            <h1 className="text-lg text-blue-800 font-semibold">Prof.M.P.S. Chawta</h1>
+            <h1 className="text-lg text-blue-800 font-semibold">Prof. M.P.S. Chawta</h1>
             <p className="mt-3 text-sm text-gray-600">
             SGSITS Indore
             </p>
