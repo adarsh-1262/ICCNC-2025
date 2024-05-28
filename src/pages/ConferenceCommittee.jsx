@@ -1,4 +1,5 @@
 import React from 'react';
+import vpspic from '../assets/VijayPratapSingh.jpg';
 
 export default function SpeakerCard() {
   return (
@@ -48,7 +49,7 @@ export default function SpeakerCard() {
         <div className="w-[200px] rounded-md border shadow-lg overflow-hidden transform transition-transform hover:scale-105 m-4">
           <div className="h-[150px] w-full bg-gray-200">
             <img
-              src="https://res.cloudinary.com/recsfaculty/image/upload/v1715861186/profilePhotoUploads/sacygfyxuj8pb8bp7r2l.jpg"
+              src={vpspic}
               alt="member"
               className="h-full w-full object-contain"
             />
